@@ -18,9 +18,9 @@ while index < int(nombre_utilisateur):
     # Récupération de la longeur du prénom avec la fonction "len()"
     longeur_prenom = len(nom_utilisateur)
     if longeur_prenom > 5:
-    print(f"Ton prénom fait {longeur_prenom} caractères, c'est plutôt long!")
-else:
-    print(f"Ton prénom fait {longeur_prenom} caractères, c'est plutôt court!")
+        print(f"Ton prénom fait {longeur_prenom} caractères, c'est plutôt long!")
+    else:
+        print(f"Ton prénom fait {longeur_prenom} caractères, c'est plutôt court!")
 
     # Nous arrivons à la fin d'une boucle, nous devons incrémenter (ajouter 1)
     # à l'index pour éviter une boucle infinie
