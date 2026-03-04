@@ -1,7 +1,3 @@
-print("Hello!")
-
-
-
 print("Salut!")
 nombre_utilisateur = input("Combien y a-t-il de personnes avec toi? : ")
 
