@@ -8,4 +8,4 @@ else:
     elif n < 0:
         print("Le nombre entré est négatif.")
     else:
-        print("Le nombre entré est 0.")
+        print("Le nombre entré est zéro.")
