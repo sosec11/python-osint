@@ -1,11 +1,18 @@
 try:
-    n = int(input("Veuillez choisir un nombre entier : "))
+    n = int(input("Veuillez choisir un nombre entier: "))
 except ValueError:
-    print("Erreur : ce n'est pas un nombre entier")
+    print("Erreur: ce n'est pas un nombre entier")
+
+if n % 2 == 0:
+    type_nombre = "pair"
 else:
-    if n > 0:
-        print("Le nombre entré est positif.")
-    elif n < 0:
-        print("Le nombre entré est négatif.")
-    else:
-        print("Le nombre entré est zéro.")
+    type_nombre = "impair"
+
+if n > 0:
+    signe = "positif"
+elif n < 0:
+    signe = "négatif"
+else:
+    signe = "zéro"
+
+print(f"Le nombre entré est {type_nombre} et {signe}.")

@@ -1,6 +1,9 @@
-n = int(input("Veuillez choisir un nombre entier: " ))
-
-if n%2 == 0:
-    print("Nombre pair")
+try:
+    n = int(input("Veuillez choisir un nombre entier: "))
+except:
+    print("Erreur : ce n'est pas un nombre")
 else:
-    print("Nombre impair")
+    if n%2 == 0:
+        print("Nombre pair")
+    else:
+        print("Nombre impair")
